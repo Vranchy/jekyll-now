@@ -16,11 +16,13 @@
 html {
   font-size: 100%;
 }
-
 body {
-	background: $white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4jURuVPL-bDrPWyBSbpJlj9nOhn-ML-6XIbqdt8LqKS9boZta");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #9900ff;
 }
 
 .container {
@@ -28,6 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  background-color: rgba(136, 70, 242, 0.4);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,6 +121,32 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+}
+
+
+
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid white;
+background-color: #cffcf4;
+
+}
+
+td {
+vertical-align: middle; 
+padding: 10px;
+}	
+
+th {
+color: white;
+background: #84d2ff;
+height:50px;
+vertical-align: middle;
 }
 
 // Specify the color of the selection
@@ -278,10 +307,7 @@ nav {
   background-color: $lightGray;
 }
 
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
