@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This blog is all about what I have learned during year 9 in Computer Science! I hope that you can learn something useful from this blog and that you can enjoy it! 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am a year 9 student who does Computer Science! I make weekly blogs to show off my progress!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@sikeyouthinkiwouldputmyrealemail.com](mailto:email@domain.com)
